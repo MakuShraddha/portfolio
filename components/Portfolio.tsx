@@ -320,7 +320,7 @@ function ProjectCard({ title, description, points }: ProjectCardProps) {
       viewport={{ once: true }}
       className="bg-gray-900 p-8 rounded-2xl border border-white/10"
     >
-      <h3 className="text-2xl font-bold text-cyan-400">{title}</h3>
+      <h3 className="text-xl font-bold text-cyan-400">{title}</h3>
       <p className="text-gray-400 mt-4">{description}</p>
 
       <ul className="mt-4 text-gray-500 list-disc list-inside space-y-2">
