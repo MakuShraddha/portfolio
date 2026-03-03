@@ -444,7 +444,7 @@ export default function Page() {
         className="py-28 px-6 md:px-16 lg:px-24" style={{ background: "#0d0d18" }}>
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-xs tracking-widest uppercase mb-4" style={{ color: "#7c3aed" }}>Who I Am</p>
+            <p className="text-m tracking-widest uppercase mb-4" style={{ color: "#7c3aed" }}>Who I Am</p>
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">About Me</h2>
             <p className="text-lg leading-relaxed mb-5" style={{ color: "#9ca3af" }}>
               I am <span className="text-white font-semibold">Shraddha Maku</span>, a final-year Computer Science student at Malla Reddy College of Engineering for Women. Strong fundamentals in Python, OOP, SQL, Machine Learning and Data Analytics.
@@ -486,7 +486,7 @@ export default function Page() {
       <motion.section id="academics" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}
         className="py-28 px-6 md:px-16 lg:px-24" style={{ background: "#0a0a0f" }}>
         <div className="max-w-5xl mx-auto">
-          <p className="text-xs tracking-widest uppercase mb-4 text-center" style={{ color: "#7c3aed" }}>Education</p>
+          <p className="text-m tracking-widest uppercase mb-4 text-center" style={{ color: "#7c3aed" }}>Education</p>
           <h2 className="text-4xl md:text-5xl font-extrabold mb-14 text-center">Academics</h2>
           <div className="p-10 rounded-3xl transition-all duration-500"
             style={{ background: "#0f0f1a", border: "1px solid rgba(255,255,255,0.05)" }}
@@ -517,7 +517,7 @@ export default function Page() {
       <motion.section id="skills" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}
         className="py-28 px-6 md:px-16 lg:px-24" style={{ background: "#0d0d18" }}>
         <div className="max-w-6xl mx-auto">
-          <p className="text-xs tracking-widest uppercase mb-4 text-center" style={{ color: "#7c3aed" }}>Expertise</p>
+          <p className="text-m tracking-widest uppercase mb-4 text-center" style={{ color: "#7c3aed" }}>Expertise</p>
           <h2 className="text-4xl md:text-5xl font-extrabold mb-14 text-center">Skills & Expertise</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
@@ -546,7 +546,7 @@ export default function Page() {
       <motion.section id="projects" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}
         className="py-28 px-6 md:px-16 lg:px-24" style={{ background: "#0a0a0f" }}>
         <div className="max-w-6xl mx-auto">
-          <p className="text-xs tracking-widest uppercase mb-4 text-center" style={{ color: "#7c3aed" }}>Portfolio</p>
+          <p className="text-m tracking-widest uppercase mb-4 text-center" style={{ color: "#7c3aed" }}>Portfolio</p>
           <h2 className="text-4xl md:text-5xl font-extrabold mb-14 text-center">Featured Projects</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <ProjectCard tag="Machine Learning" title="AI Loan Eligibility Advisory System"
@@ -569,7 +569,7 @@ export default function Page() {
       <motion.section id="achievements" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}
         className="py-28 px-6 md:px-16 lg:px-24" style={{ background: "#0d0d18" }}>
         <div className="max-w-6xl mx-auto">
-          <p className="text-xs tracking-widest uppercase mb-4 text-center" style={{ color: "#7c3aed" }}>Milestones</p>
+          <p className="text-m tracking-widest uppercase mb-4 text-center" style={{ color: "#7c3aed" }}>Milestones</p>
           <h2 className="text-4xl md:text-5xl font-extrabold mb-14 text-center">Achievements</h2>
           <div className="grid md:grid-cols-3 gap-7">
             <AchCard icon="🏆" title="AIR 566 – NCAT 2025"
@@ -586,7 +586,7 @@ export default function Page() {
       <motion.section id="teamwork" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}
         className="py-28 px-6 md:px-16 lg:px-24" style={{ background: "#0a0a0f" }}>
         <div className="max-w-6xl mx-auto">
-          <p className="text-xs tracking-widest uppercase mb-4 text-center" style={{ color: "#7c3aed" }}>Collaboration</p>
+          <p className="text-m tracking-widest uppercase mb-4 text-center" style={{ color: "#7c3aed" }}>Collaboration</p>
           <h2 className="text-4xl md:text-5xl font-extrabold mb-5 text-center">Teamwork & Community</h2>
           <p className="max-w-2xl mx-auto text-center mb-14 leading-relaxed" style={{ color: "#6b7280" }}>
             Beyond individual projects, I thrive in collaborative environments — leading teams, participating in events, and contributing to the community around me.
@@ -672,8 +672,8 @@ export default function Page() {
       <motion.section id="hobbies" variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}
         className="py-28 px-6 md:px-16 lg:px-24 overflow-hidden" style={{ background: "#0a0a0f" }}>
         <div className="max-w-6xl mx-auto">
-          <p className="text-xs tracking-widest uppercase mb-4 text-center" style={{ color: "#7c3aed" }}>Beyond Code</p>
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-5 text-center">Photography</h2>
+          <p className="text-m tracking-widest uppercase mb-4 text-center" style={{ color: "#7c3aed" }}>Beyond Code</p>
+          <h2 className="text-4xl md:text-5xl font-extrabold mb-5 text-center">Photography-Card Designing</h2>
           <p className="max-w-2xl mx-auto text-center mb-14 leading-relaxed" style={{ color: "#6b7280" }}>
             I enjoy capturing unique perspectives through photography and designing digital invitation cards — creative pursuits that sharpen my attention to detail and positively influence my approach to software development.
           </p>
