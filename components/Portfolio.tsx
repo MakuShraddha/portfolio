@@ -748,7 +748,7 @@ export default function Page() {
       {/* ── FOOTER ───────────────────────────────────────── */}
       <footer className="py-8 px-6 text-center text-sm"
         style={{ borderTop: "1px solid rgba(124,58,237,0.12)", background: "#0a0a0f", color: "#4b5563" }}>
-        © 2025{" "}
+        © 2026{" "}
         <span className="font-medium" style={{ color: "#9ca3af" }}>Shraddha Maku</span>
         . Built with ♥ and Next.js
       </footer>
