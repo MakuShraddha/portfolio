@@ -4,11 +4,14 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 
-const fadeUp = {
+import type { Variants } from "framer-motion";
+
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 60 },
-  show:   { opacity: 1, y: 0, transition: { duration: 0.75, ease: [0.22, 1, 0.36, 1] } },
+  show:   { opacity: 1, y: 0, transition: { duration: 0.75, ease: [0.22, 1, 0.36, 1] as any } },
 };
-const stagger = { show: { transition: { staggerChildren: 0.13 } } };
+const stagger: Variants = { show: { transition: { staggerChildren: 0.13 } } };
+
 
 function Typewriter({ words }: { words: string[] }) {
   const [idx,       setIdx]       = useState(0);
@@ -66,7 +69,7 @@ function Navbar() {
         className="text-xl md:text-2xl font-extrabold tracking-tight"
         style={{ fontFamily: "'Space Mono',monospace", color: "#a78bfa" }}
       >
-        Shraddha<span style={{ color: "#fff" }}>.</span>
+        Shraddha Maku<span style={{ color: "#fff" }}></span>
       </motion.span>
 
       <motion.div
