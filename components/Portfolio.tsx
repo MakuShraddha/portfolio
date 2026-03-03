@@ -622,7 +622,7 @@ export default function Page() {
                       p.style.display = "flex";
                       p.style.alignItems = "center";
                       p.style.justifyContent = "center";
-                      p.innerHTML = `<span style="font-size:3.5rem">${icon}</span>`;
+                      p.innerHTML = `<span style="font-size:3.5rem">$</span>`;
                     }}
                   />
                   {/* Overlay gradient */}
